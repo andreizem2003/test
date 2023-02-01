@@ -1,0 +1,7 @@
+import random
+
+print('На кубиках выпали цифры:')
+print(random.randint(1, 6))
+print(random.randint(1, 6))
+print("")
+print("Чтобы бросить кубик обновите старницу")
