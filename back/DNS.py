@@ -23,7 +23,7 @@ options.add_argument('--ignore-certificate-errors')
 options.add_argument('--allow-running-insecure-content')
 options.add_argument('--ignore-ssl-errors')
 options.add_argument("--window-size=1920x1080")
-# options.add_argument('--headless') 
+options.add_argument('--headless') 
 options.add_argument('start-maximized') 
 options.add_argument('disable-infobars')
 options.add_argument('--disable-extensions')
@@ -50,8 +50,6 @@ finally:
 item_titles = browser.find_elements(By.CLASS_NAME,'catalog-product__name')
 item_prices = browser.find_elements(By.CLASS_NAME,'product-buy__price')
 
-while True:
-    pass
 
 # Инициализируем пустые списки
 titles_list = []
