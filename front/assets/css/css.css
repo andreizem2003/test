@@ -5,7 +5,7 @@ body{
     line-height: 1.6;
     color:#333;
     background: linear-gradient(to top left, powderblue, pink);
-    height: 230vh;
+    height: 260vh;
 }
 
 *,
@@ -141,3 +141,23 @@ h1, h2, h3, h4, h5, h6  {
 
     transition: opacity .2s linear;
 }
+/*  Кнопка  */
+
+input::-webkit-input-placeholder {
+    color: #B6C0A5; 
+    font-style: italic; 
+    background: #E0EFCA;
+  }
+  input:-moz-placeholder {
+    color: #B6C0A5; 
+    font-style: italic; 
+    background: #E0EFCA;
+  }
+  input:-ms-input-placeholder {
+    color: #B6C0A5; 
+    font-style: italic; 
+    background: #E0EFCA;
+  }
+input {
+    color: black;
+  }
