@@ -58,7 +58,10 @@ prices_list = []
 for title in item_titles:
     titles_list.append(title.text)
 for price in item_prices:
-    prices_list.append(price.text)
+    pricetext = price.text
+    if price.text.find('\n') != -1:
+        pricetext = price.text[0:price.text.find('\n')]
+    prices_list.append(pricetext)
 print(titles_list)
 print(prices_list)
 dfL = pd.DataFrame(zip(titles_list, prices_list), columns=['ItemName', 'Price'])
