@@ -2,8 +2,6 @@
 <html lang="ru">
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="https://pyscript.net/latest/pyscript.css" />
-    <script defer src="https://pyscript.net/latest/pyscript.js"></script>
     <link rel="stylesheet" href="assets/css/css.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -20,9 +18,9 @@
 
 
                 <form action="" method="get">
-                    
-                    <input name="s" placeholder="Искать здесь..." type="search">
-                    <button type="submit">Поиск</button>
+                    <input name="s" placeholder="Искать здесь..." type="text">
+                    <button>Поиск</button>
+                    <script src="test"></script>
                 </form>
 
                 
@@ -46,18 +44,8 @@
         </div>
     </div>
 
-    <h1>Игральные кубики</h1>
-    <py-script>
-        import random
 
-        print('На кубиках выпали цифры:')
-        print(random.randint(1, 6))
-        print(random.randint(1, 6))
-        print("")
-        print("Чтобы бросить кубик обновите старницу")
-    </py-script>|
-
-    <!-- <section class="section">
+    <section class="section">
         <div class="container">
             <div class="section__header">
                 <h2>Каталог товаров</h2>
@@ -172,7 +160,7 @@
                     <div class="about__item">
                         <a href="TV.html">
                             <div class="about__img">
-                                <img src="assets/image/Реальный телик.jpg" alt="" width="356" height="251">
+                                <img src="assets/image/ТВ.jpg" alt="" width="356" height="251">
                             </div>
                             <div class="about__text">ТВ</div>
                         </a>
@@ -195,7 +183,13 @@
                     </div>
                 </div>                
         </div>
-    </section> -->
+    </section>
 
 </body>
+<footer class="podval">
+    <h2>Россия</h2>
+    <h3>г.Подольск</h3>
+    <h4>Рабочая ул, 7</h4>
+    <h4>Телефон: +7(912)436-14-53</h4>
+</footer>
 </html>

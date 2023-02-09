@@ -1,0 +1,9 @@
+document.querySelector('button').onclick = myClikc;
+
+function myClikc() {
+        console.log('work');
+        let a = document.querySelector('button').value
+        console.log(a)
+
+        
+}

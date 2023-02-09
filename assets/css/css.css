@@ -141,7 +141,29 @@ h1, h2, h3, h4, h5, h6  {
 
     transition: opacity .2s linear;
 }
+/*  Кнопка  */
 
-.python {
-    background-color: white;
+input::-webkit-input-placeholder {
+    color: #B6C0A5; 
+    font-style: italic; 
+    background: #E0EFCA;
+  }
+  input:-moz-placeholder {
+    color: #B6C0A5; 
+    font-style: italic; 
+    background: #E0EFCA;
+  }
+  input:-ms-input-placeholder {
+    color: #B6C0A5; 
+    font-style: italic; 
+    background: #E0EFCA;
+  }
+input {
+    color: black;
+  }
+/*  Подвал    */
+.podval {
+    padding: 10px 0 5px 10px;
+    background-color: #333;
+    color: white;
 }
